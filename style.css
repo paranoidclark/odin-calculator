@@ -33,6 +33,7 @@ body {
     box-sizing: border-box;
 
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
     padding: 16px;
@@ -41,6 +42,18 @@ body {
 .display h1 {
     color: white;
     font-size: 3em;
+}
+
+.display h2 {
+    color: rgb(192, 192, 192);
+    font-size: 1.5em;
+}
+
+.display h3 {
+    color: #e28;
+    font-size: 3em;
+    position: absolute;
+    align-self: flex-start;
 }
 
 .keypads {
